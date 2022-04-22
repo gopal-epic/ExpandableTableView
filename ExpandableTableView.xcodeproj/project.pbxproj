@@ -17,6 +17,7 @@
 		4B6F149F2811092200E564CC /* CarouselRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F149B2811092200E564CC /* CarouselRowTableViewCell.swift */; };
 		4B6F14A02811092200E564CC /* CarouselRowCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B6F149C2811092200E564CC /* CarouselRowCollectionViewCell.xib */; };
 		4B6F14A12811092200E564CC /* CarouselRowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F149D2811092200E564CC /* CarouselRowCollectionViewCell.swift */; };
+		4B6F14A52812148200E564CC /* FlipBookRecommendationCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6F14A42812148200E564CC /* FlipBookRecommendationCollectionViewFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4B6F149B2811092200E564CC /* CarouselRowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselRowTableViewCell.swift; sourceTree = "<group>"; };
 		4B6F149C2811092200E564CC /* CarouselRowCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CarouselRowCollectionViewCell.xib; sourceTree = "<group>"; };
 		4B6F149D2811092200E564CC /* CarouselRowCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselRowCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B6F14A42812148200E564CC /* FlipBookRecommendationCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipBookRecommendationCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				4B6F149C2811092200E564CC /* CarouselRowCollectionViewCell.xib */,
 				4B6F149B2811092200E564CC /* CarouselRowTableViewCell.swift */,
 				4B6F149A2811092200E564CC /* CarouselRowTableViewCell.xib */,
+				4B6F14A42812148200E564CC /* FlipBookRecommendationCollectionViewFlowLayout.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B6F14822810DD2100E564CC /* AppDelegate.swift in Sources */,
+				4B6F14A52812148200E564CC /* FlipBookRecommendationCollectionViewFlowLayout.swift in Sources */,
 				4B6F14972810DDAB00E564CC /* TableViewController.swift in Sources */,
 				4B6F149F2811092200E564CC /* CarouselRowTableViewCell.swift in Sources */,
 				4B6F14842810DD2100E564CC /* SceneDelegate.swift in Sources */,

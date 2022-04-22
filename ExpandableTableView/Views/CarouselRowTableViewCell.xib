@@ -26,12 +26,7 @@
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="XM7-UP-3da">
                         <rect key="frame" x="0.0" y="63.5" width="320" height="166.5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Tpk-ig-x7G">
-                            <size key="itemSize" width="128" height="128"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
+                        <collectionViewLayout key="collectionViewLayout" id="rix-hR-G8v" customClass="FlipBookRecommendationCollectionViewFlowLayout" customModule="ExpandableTableView" customModuleProvider="target"/>
                     </collectionView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nej-hA-lTx">
                         <rect key="frame" x="117.5" y="246" width="85.5" height="40"/>
@@ -40,6 +35,9 @@
                         </constraints>
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="gray" title="See More"/>
+                        <connections>
+                            <action selector="seeMoreButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="XKK-hF-9Dv"/>
+                        </connections>
                     </button>
                 </subviews>
                 <constraints>
